@@ -1,8 +1,8 @@
-# lesson04 - Warmup
+# lesson12 - Working with Exceptions
 
 - name: TODO
 - email: TODO
-- [lab specs](https://shanepanter.com/cs2/lessons/lesson04.html)
+- [lab specs](https://shanepanter.com/cs2/lessons/lesson12.html)
 
 ## Testing
 
