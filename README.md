@@ -5,6 +5,10 @@
 In this lab you are given a partially implemented program that needs to be updated to work when it
 encounters bad input.
 
+## Videos
+
+- [Lab Overview]()
+
 ## Task 1 - Write Unit Tests
 
 We will continue to practice TDD by writing our tests for the `parse` method in the NameAgeTest.java
