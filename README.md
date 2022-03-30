@@ -5,9 +5,10 @@
 In this lab you are given a partially implemented program that needs to be updated to work when it
 encounters bad input.
 
-## Videos
+## Important links
 
 - [Lab Overview]()
+- [Class Coding standards](https://shanep-cs2.github.io/docs/coding-standards.html)
 
 ## Task 1 - Write Unit Tests
 
