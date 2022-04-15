@@ -7,46 +7,54 @@ encounters bad input.
 
 ## Important links
 
-- [Lab Overview]()
+- [Lab Overview](https://youtu.be/HZixPDCSpDk)
 - [Class Coding standards](https://shanep-cs2.github.io/docs/coding-standards.html)
 - [Cloning and Submitting](https://shanep-cs2.github.io/docs/github.html)
 
 ## Task 1 - Write Unit Tests
 
-We will continue to practice TDD by writing our tests for the `parse` method in the NameAgeTest.java
-file.
+Write some unit tests that will test the `MyMath.divide` method.
 
-## Task 2 - Complete the NameAge class
+## Task 2 - Complete the MyMath class
 
-In your repository find the file NameAge.java. You will need to complete the `parse` method that
-will read input from a scanner consisting of a a list of single-word first names and ages (ending
-with -1). The method takes the name and age,  concatenates them into a new string, and then adds it
-to an ArrayList that will be returned to the caller. The age needs to be incremented by 3. The
-program should not fail if the second input on a line is a String rather than an Integer. 
+Complete the  a program that reads integers userNum and divNum as input, and output the quotient
+(userNum divided by divNum). Use a try block to perform the statements. Use a catch block to catch
+any ArithmeticException and output an exception message with the getMessage() method. Use another
+catch block to catch any InputMismatchException and output an exception message with the toString()
+method.
 
-**Hint:** You will need to add a try/catch statement to catch java.util.InputMismatchException, and
-output 0 for the age. You can't catch the **Exception** base class you must only catch the
-InputMismatchException. Your program will not be tested with any other weird output :)
+Ex: If the input of the program is:
 
-## Example
+`15 3`
 
-Input:
+the output of the program is:
 
-```
-Hobar 42
-Arkady 16
-Bayta Darell 35
-Salvor 33
--1
-```
+`5`
 
+Ex: If the input of the program is:
 
-Output:
+`10 0`
 
-```
-Hobar 45
-Arkady 19
-Bayta  0
-Salvor 36
-```
+the output of the program is:
 
+`Arithmetic Exception: / by zero`
+
+Ex: If the input of the program is:
+
+`15.5 5`
+
+the output of the program is:
+
+`java.util.NumberFormatException`
+
+**HINT:** Use the [Integer.parseInt](https://docs.oracle.com/javase/10/docs/api/java/lang/Integer.html#parseInt(java.lang.String))
+
+## Task 3 - Complete the Retrospective
+
+Once you have completed all the tasks open the file **Retrospective.md** and complete each section
+with a TODO comment. 
+
+## Task 4 - Add, Commit, Push your code
+
+Once you are finished you need to make sure that you have pushed all your code to GitHub for
+grading!
