@@ -17,7 +17,7 @@ Write some unit tests that will test the `MyMath.divide` method.
 
 ## Task 2 - Complete the MyMath class
 
-Complete the  a program that reads integers userNum and divNum as input, and output the quotient
+Complete a program that reads integers userNum and divNum as input, and output the quotient
 (userNum divided by divNum). Use a try block to perform the statements. Use a catch block to catch
 any ArithmeticException and output an exception message with the getMessage() method. Use another
 catch block to catch any InputMismatchException and output an exception message with the toString()
