@@ -12,4 +12,9 @@ public class MyMath {
     public static int divide(String dividend, String divisor){
         //TODO
     }
+    
+    public static void main(String args[]){
+        //TODO use the divide method here with try/catch
+    }
+
 }
