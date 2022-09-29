@@ -21,7 +21,7 @@ Complete a program that reads integers userNum and divNum as input, and output t
 (userNum divided by divNum). Use a try block to perform the statements. Use a catch block to catch
 any ArithmeticException and output an exception message with the getMessage() method. Use another
 catch block to catch any InputMismatchException and output an exception message with the toString()
-method.
+method. **HINT: You will need to write a main method in the MyMath class to do this!**
 
 Ex: If the input of the program is:
 
