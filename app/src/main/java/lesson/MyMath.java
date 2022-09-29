@@ -10,7 +10,7 @@ public class MyMath {
      * @return the quotient 
      */
     public static int divide(String dividend, String divisor){
-        //TODO
+      //TODO - no try catch here!
     }
     
     public static void main(String args[]){
