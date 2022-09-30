@@ -45,7 +45,7 @@ Ex: If the input of the program is:
 
 the output of the program is:
 
-`java.util.NumberFormatException`
+`NumberFormatException`
 
 **HINT:** Use the [Integer.parseInt](https://docs.oracle.com/javase/10/docs/api/java/lang/Integer.html#parseInt(java.lang.String))
 
